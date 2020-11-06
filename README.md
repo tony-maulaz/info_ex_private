@@ -78,3 +78,18 @@ Ecrire une boucle `for` qui écrit les caractères de `R` à `C` séparé par un
 ```BASH
 R-Q-P-O…
 ```
+
+Donner le type du resultat des calculs suivant:
+```C
+int i;
+double d;
+bool b;
+
+// Exemple
+i * i; // int
+
+i * d; 
+b && i;
+d > i;
+! b;
+```
