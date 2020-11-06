@@ -46,7 +46,7 @@ Que faut-il écrire dans le `sscanf` :
 Quel est l’affichage du programme suivant :
 
 ```C
-int a = 0, b = 100 ;
+int a = 0, b = 100;
 if( a > b || true ){
     printf("Hello\n");
 }
@@ -56,7 +56,7 @@ printf("End\n");
 Quel est l’affichage du programme suivant :
 
 ```C
-int a = 0, b = 100 ;
+int a = 0, b = 100;
 if( a == b && b > 10 )
     printf("Cas 1\n");
 else if( a == 3 || b > 34 && a > 0 )
@@ -68,8 +68,8 @@ else
 Quel est l’affichage de :
 
 ```C
-a = 3 ; 
-b = 6 ;
+a = 3; 
+b = 6;
 printf("Val = %d", a > b ? a : b);
 ```
 
