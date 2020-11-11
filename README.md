@@ -8,7 +8,7 @@ Quel est la valeur de `a` pour chaque ligne :
 int a = 5 | (1 << 1);
 a = 5 & (1 << 2);
 a = (3 & 2) == 2;
-a = (8 & (1 << 3)) == 0x8 && (3 & 2) == 2;
+a = ((8 & (1 << 3)) == 0x8) && ((3 & 2) == 2);
 ```
 
 Quel est l’affichage du code suivant :
